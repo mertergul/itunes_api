@@ -14,15 +14,12 @@ class MainViewModel{
     private var mainViewState: ((ViewState) -> Void)?
     private var detailViewState: ItemDetailRequestBlock?
     
-//    private let accessProviderManager: AccessProviderProtocol
+
     private var dataFormatter: MainDataFormatterProtocol
     
     init(
-//         accessProviderManager: AccessProviderProtocol,
          dataFormatter: MainDataFormatterProtocol) {
-//        self.accessProviderManager = accessProviderManager
         self.dataFormatter = dataFormatter
-//        getData()
     }
     public func getData() {
         mainViewState?(.loading)
@@ -108,8 +105,6 @@ extension MainViewModel: ItemProviderProtocol {
     }
     
     func selectedItem(at index: Int) {
-        print("index : \(index)")
-        print(dataFormatter.getItemId(at: index))
         detailViewState?(ItemDetailViewRequest(id: dataFormatter.getItemId(at: index), type: .present))
     }
 }

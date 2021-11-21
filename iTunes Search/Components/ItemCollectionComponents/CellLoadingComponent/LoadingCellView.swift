@@ -23,9 +23,7 @@ class LoadingCellView: BaseCollectionViewCell {
         
         let indicator = UIActivityIndicatorView()
         indicator.translatesAutoresizingMaskIntoConstraints = false
-//        indicator.style = .UIActivityIndicatorView.Style.medium
-//        indicator.hidesWhenStopped = true
-        
+
         contentView.addSubview(indicator)
         
         NSLayoutConstraint.activate([

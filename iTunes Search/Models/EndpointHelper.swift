@@ -18,22 +18,4 @@ enum EndpointHelper {
         case dev = "https://itunes.apple.com/search?"
         case detailurl =  "https://itunes.apple.com/lookup?"
     }
-//
-//    enum Paths: GenericValueProtocol {
-//
-//        typealias Value = String
-//
-//        var value: String {
-//            switch self {
-////            case .characters:
-////                return "characters"
-//            case .detail(let characterId):
-//                return "id/\(characterId)"
-//            }
-//        }
-//
-////        case characters
-//        case detail(Int)
-//    }
-    
 }

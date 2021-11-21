@@ -35,8 +35,8 @@ class ItemDetailView: GenericBaseView<ItemDetailViewData> {
         temp.translatesAutoresizingMaskIntoConstraints = false
         temp.layer.cornerRadius = 2
         temp.clipsToBounds = true
-        temp.heightAnchor.constraint(equalToConstant: getSize()).isActive = true
-        temp.widthAnchor.constraint(equalToConstant: getSize()).isActive = true
+        temp.heightAnchor.constraint(equalToConstant: 150).isActive = true
+        temp.widthAnchor.constraint(equalToConstant: 150).isActive = true
         return temp
     }()
     
@@ -59,8 +59,6 @@ class ItemDetailView: GenericBaseView<ItemDetailViewData> {
         
             containerView.topAnchor.constraint(equalTo: topAnchor),
             containerView.bottomAnchor.constraint(equalTo: bottomAnchor),
-//            containerView.leadingAnchor.constraint(equalTo: leadingAnchor),
-//            containerView.trailingAnchor.constraint(equalTo: trailingAnchor),
             containerView.widthAnchor.constraint(equalToConstant: UIScreen.main.bounds.width - 60),
             containerView.centerXAnchor.constraint(equalTo: centerXAnchor),
 

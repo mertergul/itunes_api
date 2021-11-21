@@ -21,8 +21,6 @@ class MainViewController: BaseViewController<MainViewModel> {
         addMainComponent()
         addViewModelListeners()
         configureUI()
-        //        viewModel.getData()
-        
     }
     func configureUI() {
         
@@ -30,7 +28,7 @@ class MainViewController: BaseViewController<MainViewModel> {
         
         searchBar.sizeToFit()
         searchBar.scopeButtonTitles = ["Movies","Music","Apps","Books"]
-        //        searchBar.selectedScopeButtonIndex = 0
+        
         searchBar.showsScopeBar = true
         searchBar.delegate = self
         searchBar.becomeFirstResponder()
@@ -41,11 +39,10 @@ class MainViewController: BaseViewController<MainViewModel> {
                                                                    blue: 250/255, alpha: 1)
         navigationController?.navigationBar.barStyle = .default
         navigationController?.navigationBar.tintColor = .white
-        //        navigationController?.navigationBar.prefersLargeTitles = true
         navigationController?.navigationBar.isTranslucent = false
         navigationItem.title = "İtunes Search App"
         
-        //        showSearchBarButton(shouldShow: true)
+     
     }
     @objc func handleShowSearchBar() {
         searchBar.becomeFirstResponder()

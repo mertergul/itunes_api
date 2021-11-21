@@ -13,7 +13,6 @@ class CharacterListServiceProvider: ApiServiceProvider<CharacterDataRequest> {
     init(request: CharacterDataRequest) {
         super.init(method: .get,
                    baseUrl: BaseUrl.dev.rawValue,
-//                   path: Paths.characters.value,
                    data: request)
     }
     

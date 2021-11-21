@@ -143,14 +143,11 @@ class ContentDisplayerView: GenericBaseView<GenericDataProtocol> {
         let dateFormatterGet = DateFormatter()
         dateFormatterGet.dateFormat = "yyyy-MM-dd'T'HH:mm:ssZ"
 
-        let dateFormatterPrint = DateFormatter()
-        dateFormatterPrint.dateFormat = "MMM dd,yyyy"
+        let dateFormatterResponce = DateFormatter()
+        dateFormatterResponce.dateFormat = "MMM dd,yyyy"
 
         if let date = dateFormatterGet.date(from: dateconvert) {
-            return (dateFormatterPrint.string(from: date))
-            
-        } else {
-           print("There was an error decoding the string")
+            return (dateFormatterResponce.string(from: date))
         }
         return ""
     }

@@ -15,9 +15,6 @@ public class CharacterDataRequest: Codable {
     private(set) public var term: String
     private(set) public var media: String
     
-//    private(set) public var hash: String
- 
-
     public init(
                 limit: Int = 20,offset: Int = 0,
                 term: String, media: String
