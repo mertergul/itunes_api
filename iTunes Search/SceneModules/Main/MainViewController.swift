@@ -95,23 +95,24 @@ class MainViewController: BaseViewController<MainViewModel> {
             }
         }
         
-        //        viewModel.subscribeDetailViewState { [weak self] data in
-        //            self?.fireDetailView(with: data)
-        //        }
+                viewModel.subscribeDetailViewState { [weak self] data in
+                    self?.fireDetailView(with: data)
+                }
         
     }
-    //    private func fireDetailView(with data: ItemDetailViewRequest) {
-    //
-    //        let viewController = ItemDetailViewBuilder.build(with: data)
-    //
-    //        switch data.type {
-    //        case .push:
-    //            navigationController?.pushViewController(viewController, animated: true)
-    //        case .present:
-    //            present(viewController, animated: true, completion: nil)
-    //        }
+        private func fireDetailView(with data: ItemDetailViewRequest) {
     
-}
+            let viewController = ItemDetailViewBuilder.build(with: data)
+    
+            switch data.type {
+            case .push:
+                navigationController?.pushViewController(viewController, animated: true)
+            case .present:
+                present(viewController, animated: true, completion: nil)
+            }
+   
+    
+        }}
 private var pendingRequestWorkItem: DispatchWorkItem?
 
 extension MainViewController: UISearchBarDelegate {

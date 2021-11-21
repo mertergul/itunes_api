@@ -22,6 +22,15 @@
 		090046A2272F3C8000D1F173 /* MainDataFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090046A1272F3C8000D1F173 /* MainDataFormatter.swift */; };
 		090046A4272F3CAB00D1F173 /* MainDataFormatterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090046A3272F3CAB00D1F173 /* MainDataFormatterProtocol.swift */; };
 		090046A6272F4A0900D1F173 /* ApiServiceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090046A5272F4A0900D1F173 /* ApiServiceProvider.swift */; };
+		092C0A8D274A7DD700CDDDAB /* ItemDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092C0A8C274A7DD700CDDDAB /* ItemDetailViewController.swift */; };
+		092C0A8F274A7DEF00CDDDAB /* ItemDetailViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092C0A8E274A7DEF00CDDDAB /* ItemDetailViewBuilder.swift */; };
+		092C0A91274A7DFE00CDDDAB /* ItemDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092C0A90274A7DFE00CDDDAB /* ItemDetailViewModel.swift */; };
+		092C0A93274A7E0C00CDDDAB /* ItemDetailDataFormatterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092C0A92274A7E0C00CDDDAB /* ItemDetailDataFormatterProtocol.swift */; };
+		092C0A95274A7E2600CDDDAB /* ItemDetailDataFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092C0A94274A7E2600CDDDAB /* ItemDetailDataFormatter.swift */; };
+		092C0A99274A819B00CDDDAB /* ItemDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092C0A97274A819B00CDDDAB /* ItemDetailView.swift */; };
+		092C0A9A274A819B00CDDDAB /* ItemDetailViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092C0A98274A819B00CDDDAB /* ItemDetailViewData.swift */; };
+		092C0A9C274A8B2C00CDDDAB /* CharacterDetailServiceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092C0A9B274A8B2C00CDDDAB /* CharacterDetailServiceProvider.swift */; };
+		092C0A9E274A8BBD00CDDDAB /* CharacterDetailRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092C0A9D274A8BBD00CDDDAB /* CharacterDetailRequest.swift */; };
 		0952B69F272DC6C5002D2857 /* ApiServiceResponce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0952B69E272DC6C5002D2857 /* ApiServiceResponce.swift */; };
 		0952B6A3272DCC3A002D2857 /* MainViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0952B6A2272DCC3A002D2857 /* MainViewState.swift */; };
 		095D71E52742AA4B009A1F8B /* ItemCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095D71E42742AA4B009A1F8B /* ItemCollectionView.swift */; };
@@ -72,6 +81,15 @@
 		090046A1272F3C8000D1F173 /* MainDataFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainDataFormatter.swift; sourceTree = "<group>"; };
 		090046A3272F3CAB00D1F173 /* MainDataFormatterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainDataFormatterProtocol.swift; sourceTree = "<group>"; };
 		090046A5272F4A0900D1F173 /* ApiServiceProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiServiceProvider.swift; sourceTree = "<group>"; };
+		092C0A8C274A7DD700CDDDAB /* ItemDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailViewController.swift; sourceTree = "<group>"; };
+		092C0A8E274A7DEF00CDDDAB /* ItemDetailViewBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailViewBuilder.swift; sourceTree = "<group>"; };
+		092C0A90274A7DFE00CDDDAB /* ItemDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailViewModel.swift; sourceTree = "<group>"; };
+		092C0A92274A7E0C00CDDDAB /* ItemDetailDataFormatterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailDataFormatterProtocol.swift; sourceTree = "<group>"; };
+		092C0A94274A7E2600CDDDAB /* ItemDetailDataFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailDataFormatter.swift; sourceTree = "<group>"; };
+		092C0A97274A819B00CDDDAB /* ItemDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemDetailView.swift; sourceTree = "<group>"; };
+		092C0A98274A819B00CDDDAB /* ItemDetailViewData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemDetailViewData.swift; sourceTree = "<group>"; };
+		092C0A9B274A8B2C00CDDDAB /* CharacterDetailServiceProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterDetailServiceProvider.swift; sourceTree = "<group>"; };
+		092C0A9D274A8BBD00CDDDAB /* CharacterDetailRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterDetailRequest.swift; sourceTree = "<group>"; };
 		0952B69E272DC6C5002D2857 /* ApiServiceResponce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiServiceResponce.swift; sourceTree = "<group>"; };
 		0952B6A2272DCC3A002D2857 /* MainViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewState.swift; sourceTree = "<group>"; };
 		095D71E42742AA4B009A1F8B /* ItemCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCollectionView.swift; sourceTree = "<group>"; };
@@ -122,6 +140,7 @@
 		09004679272F382D00D1F173 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				092C0A96274A819B00CDDDAB /* ItemDetailComponent */,
 				09D2B1482731176D0022FD55 /* EmptyBackgroundComponent */,
 				09D2B13C273116FF0022FD55 /* ItemCollectionComponents */,
 				09BB8B5B27304B100095C891 /* CharacterViewCompoents */,
@@ -175,6 +194,15 @@
 			path = Manager;
 			sourceTree = "<group>";
 		};
+		092C0A96274A819B00CDDDAB /* ItemDetailComponent */ = {
+			isa = PBXGroup;
+			children = (
+				092C0A97274A819B00CDDDAB /* ItemDetailView.swift */,
+				092C0A98274A819B00CDDDAB /* ItemDetailViewData.swift */,
+			);
+			path = ItemDetailComponent;
+			sourceTree = "<group>";
+		};
 		093C4CC4273098410016B3F2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -190,6 +218,7 @@
 				09BB8B59273046740095C891 /* PaginationInfo.swift */,
 				09BB8B65273075120095C891 /* EndpointHelper.swift */,
 				09BB8B6B273084AA0095C891 /* CharacterDataRequest.swift */,
+				092C0A9D274A8BBD00CDDDAB /* CharacterDetailRequest.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -251,6 +280,7 @@
 		0971EF26272685D70018CC66 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				092C0A9B274A8B2C00CDDDAB /* CharacterDetailServiceProvider.swift */,
 				0971EF27272686090018CC66 /* AssetHelpers */,
 				0900469F272F3C1F00D1F173 /* FontManager.swift */,
 			);
@@ -281,8 +311,13 @@
 		09BB8B4A273043120095C891 /* İtemDetail */ = {
 			isa = PBXGroup;
 			children = (
+				092C0A8C274A7DD700CDDDAB /* ItemDetailViewController.swift */,
+				092C0A8E274A7DEF00CDDDAB /* ItemDetailViewBuilder.swift */,
+				092C0A90274A7DFE00CDDDAB /* ItemDetailViewModel.swift */,
 				09BB8B51273043670095C891 /* ItemDetailViewPresentationType.swift */,
 				09BB8B532730437E0095C891 /* ItemDetailViewRequest.swift */,
+				092C0A92274A7E0C00CDDDAB /* ItemDetailDataFormatterProtocol.swift */,
+				092C0A94274A7E2600CDDDAB /* ItemDetailDataFormatter.swift */,
 			);
 			name = "İtemDetail";
 			path = "İtemDetail";
@@ -416,7 +451,9 @@
 				0976D1A4272692E4003A389E /* MainViewBuilder.swift in Sources */,
 				09004680272F396A00D1F173 /* CustomImageViewComponentData.swift in Sources */,
 				09D2B14B2731176D0022FD55 /* EmptyBackgroundViewData.swift in Sources */,
+				092C0A8D274A7DD700CDDDAB /* ItemDetailViewController.swift in Sources */,
 				09BB8B5F27304B400095C891 /* ContentDisplayerView.swift in Sources */,
+				092C0A9A274A819B00CDDDAB /* ItemDetailViewData.swift in Sources */,
 				09BB8B5A273046740095C891 /* PaginationInfo.swift in Sources */,
 				0900468F272F3A8800D1F173 /* LabelPackComponent.swift in Sources */,
 				09BB8B66273075120095C891 /* EndpointHelper.swift in Sources */,
@@ -424,14 +461,19 @@
 				090046A4272F3CAB00D1F173 /* MainDataFormatterProtocol.swift in Sources */,
 				09D2B145273116FF0022FD55 /* LoadingCellView.swift in Sources */,
 				0971EF1D272682040018CC66 /* SplashViewBuilder.swift in Sources */,
+				092C0A9C274A8B2C00CDDDAB /* CharacterDetailServiceProvider.swift in Sources */,
 				095D71E52742AA4B009A1F8B /* ItemCollectionView.swift in Sources */,
 				090046A6272F4A0900D1F173 /* ApiServiceProvider.swift in Sources */,
 				0900469E272F3BDF00D1F173 /* ImageCacheManager.swift in Sources */,
+				092C0A9E274A8BBD00CDDDAB /* CharacterDetailRequest.swift in Sources */,
 				09BB8B542730437E0095C891 /* ItemDetailViewRequest.swift in Sources */,
+				092C0A8F274A7DEF00CDDDAB /* ItemDetailViewBuilder.swift in Sources */,
 				09D2B13B273116D30022FD55 /* BaseCollectionViewCell.swift in Sources */,
+				092C0A99274A819B00CDDDAB /* ItemDetailView.swift in Sources */,
 				09D2B139273116810022FD55 /* ItemCollectionCellView.swift in Sources */,
 				090046A0272F3C1F00D1F173 /* FontManager.swift in Sources */,
 				09BB8B52273043670095C891 /* ItemDetailViewPresentationType.swift in Sources */,
+				092C0A95274A7E2600CDDDAB /* ItemDetailDataFormatter.swift in Sources */,
 				09004682272F398700D1F173 /* CustomImageViewComponent.swift in Sources */,
 				09D2B14C2731176D0022FD55 /* EmptyBackgroundView.swift in Sources */,
 				0971EF19272681CE0018CC66 /* SplashViewModel.swift in Sources */,
@@ -443,6 +485,8 @@
 				0971EF1B272681F10018CC66 /* SplashViewController.swift in Sources */,
 				09004691272F3A9400D1F173 /* LabelPackComponentData.swift in Sources */,
 				09D2B146273116FF0022FD55 /* ItemCollectionViewData.swift in Sources */,
+				092C0A93274A7E0C00CDDDAB /* ItemDetailDataFormatterProtocol.swift in Sources */,
+				092C0A91274A7DFE00CDDDAB /* ItemDetailViewModel.swift in Sources */,
 				09BB8B6C273084AA0095C891 /* CharacterDataRequest.swift in Sources */,
 				0971EF2D272686AF0018CC66 /* PageViewImages.swift in Sources */,
 				0976D1A6272692F9003A389E /* MainViewController.swift in Sources */,
