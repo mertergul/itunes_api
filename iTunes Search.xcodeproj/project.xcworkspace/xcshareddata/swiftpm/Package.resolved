@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "DefaultNetworkOperationPackage",
+        "repositoryURL": "https://github.com/mertergul/DefaultNetworkOperationPackage",
+        "state": {
+          "branch": "master",
+          "revision": "3d53e6e3fcbc33862422be43e40d2b684acadc16",
+          "version": null
+        }
+      },
+      {
+        "package": "Lottie",
+        "repositoryURL": "https://github.com/airbnb/lottie-ios",
+        "state": {
+          "branch": "master",
+          "revision": "e9c52fa3e2f962febb6fcc27a94eff15292130b2",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
