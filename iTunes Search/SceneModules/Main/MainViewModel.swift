@@ -110,7 +110,7 @@ extension MainViewModel: ItemProviderProtocol {
     func selectedItem(at index: Int) {
         print("index : \(index)")
         print(dataFormatter.getItemId(at: index))
-        detailViewState?(ItemDetailViewRequest(id: dataFormatter.getItemId(at: index), type: .push))
+        detailViewState?(ItemDetailViewRequest(id: dataFormatter.getItemId(at: index), type: .present))
     }
 }
 

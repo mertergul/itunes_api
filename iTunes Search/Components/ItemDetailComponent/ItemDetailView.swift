@@ -15,6 +15,7 @@ class ItemDetailView: GenericBaseView<ItemDetailViewData> {
         view.layer.cornerRadius = 6
         view.clipsToBounds = true
         view.backgroundColor = .white
+        
         return view
     }()
     

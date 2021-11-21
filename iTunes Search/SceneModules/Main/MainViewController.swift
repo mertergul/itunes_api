@@ -43,7 +43,7 @@ class MainViewController: BaseViewController<MainViewModel> {
         navigationController?.navigationBar.tintColor = .white
         //        navigationController?.navigationBar.prefersLargeTitles = true
         navigationController?.navigationBar.isTranslucent = false
-        navigationItem.title = "İtunes Search Bar"
+        navigationItem.title = "İtunes Search App"
         
         //        showSearchBarButton(shouldShow: true)
     }

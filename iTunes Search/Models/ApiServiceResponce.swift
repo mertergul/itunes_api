@@ -7,6 +7,7 @@
 
 
 import Foundation
+import SwiftUI
 
 public struct ResultArray: Codable {
   var resultCount = 0
@@ -20,6 +21,8 @@ public struct SearchResult: Codable {
     var trackPrice: Double?
     var price : Double?
     var releaseDate: String
+    var longDescription: String?
+    var description: String?
     
 
     enum CodingKeys: String, CodingKey {
@@ -30,6 +33,8 @@ public struct SearchResult: Codable {
         case releaseDate
         case trackPrice
         case price
+        case longDescription
+        case description
             
         
     }
