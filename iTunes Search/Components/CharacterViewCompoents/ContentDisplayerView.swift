@@ -135,7 +135,7 @@ class ContentDisplayerView: GenericBaseView<GenericDataProtocol> {
         guard let data = returnData() as? ContentDisplayerViewData else { return }
         imageContainer.setData(by: data.imageData)
         infoView.text = data.name
-        titleView.text = "Release Date: " + dateConvert(at: data.title)
+        titleView.text = dateConvert(at: data.title)
         infoView.isHidden = data.isInfoViewHidden
         priceView.text = String(data.price) + " USD"
     }
