@@ -16,6 +16,7 @@ class ItemDetailView: GenericBaseView<ItemDetailViewData> {
         view.clipsToBounds = true
         view.backgroundColor = .white
         
+        
         return view
     }()
     
