@@ -36,7 +36,7 @@ After going to the detail page, it can return to the main page.
 * NetworkPackage https://github.com/erkutbas/DefaultNetworkOperationPackage
 ## Implementation and Features
 
-| Splash Screen | Home Screen | Search Screen | Detail Screen | Create Recipe Screen |      
+| Splash Screen | Home Screen | Search Screen | Detail Screen | App |      
 | --- | --- | --- | --- | --- | 
 |<img src="splashscreen.png" width="600"> | <img src="homescreen.png" width="600"> | <img src="searchscreen.png" width="600"> | <img src="Detailscreen.png" width="600">| <img src="itunes.gif" width="600"> | 
 
