@@ -4,7 +4,7 @@
 #### *Final Project for Hepsiburada iOS Bootcamp*
 
 <div align="center">
-  <img src="itunes.png" width="300"> 
+  <img src="gif/itunes.png" width="300"> 
 </div>
 
 ## Table of Contents
