@@ -38,7 +38,7 @@ After going to the detail page, it can return to the main page.
 
 | Splash Screen | Home Screen | Search Screen | Detail Screen | Create Recipe Screen |      
 | --- | --- | --- | --- | --- | 
-|<img src="splashscreen.png" width="600"> | <img src="homescreen.png" width="600"> | <img src="searchscreen.png" width="600"> | <img src="Detailscreen.png" width="600">| <img src="https://media.giphy.com/media/hZxLBajbX6p2LKRYjg/giphy.gif" width="700"> | 
+|<img src="splashscreen.png" width="600"> | <img src="homescreen.png" width="600"> | <img src="searchscreen.png" width="600"> | <img src="Detailscreen.png" width="600">| <img src="https://media.giphy.com/media/hZxLBajbX6p2LKRYjg/giphy.gif width="400" height="400" | 
 
 
 
