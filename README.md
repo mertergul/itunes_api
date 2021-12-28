@@ -1,4 +1,4 @@
- [![Generic badge](https://img.shields.io/badge/Language-Swift-red.svg)](https://developer.apple.com/swift/) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 
 # İtunes Search 
 #### *Final Project for Hepsiburada iOS Bootcamp*
